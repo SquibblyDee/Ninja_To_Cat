@@ -1,0 +1,107 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid red;
+    /* outline: 1px red solid; */
+}
+
+.container{
+    width: 970px;
+    height: 722px;
+    display: inline-block;
+}
+
+.content{
+    width: 970px;
+    height: 722px;
+    display: inline-block;
+    background-color: grey;
+}
+
+#button{
+    margin-left: 450px;
+    margin-top: 5px;
+    box-shadow: 2px 2px black;
+}
+
+#picture1{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture2{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture3{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture4{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture5{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture6{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture7{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}
+#picture8{
+    width:195px;
+    height:300px;
+    margin: 22px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/ninja.png");
+    background-position: bottom;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Disappearing Ninja</title>
+        <meta name="description" content="Hide That Ninja">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- CONTAINER CLASS BEGINS -->
+        <div class="container">
+            <!-- CONTENT CLASS BEGINS (THE ENTIRE SITE)-->
+            <div class="content">
+                <div class="row1">
+                    <div id="picture1"></div>
+                    <div id="picture2"></div>
+                    <div id="picture3"></div>
+                    <div id="picture4"></div>
+                </div>   
+                <div class="row2">
+                    <div id="picture5"></div>
+                    <div id="picture6"></div>
+                    <div id="picture7"></div>
+                    <div id="picture8"></div>
+                </div>   
+                <button id="button" type="button">RESET</button> 
+            </div>
+        </div>
+        <script>
+            // DISAPPEAR A PICTURE WHEN IT IS CLICKED UPON
+            $("#picture1 ").click( 
+            function (){
+                $("#picture1").hide("#picture1");
+            });
+            $("#picture2").click( 
+            function (){
+                $("#picture2").hide("#picture2");
+            });
+            $("#picture3").click( 
+            function (){
+                $("#picture3").hide("#picture3");
+            });
+            $("#picture4").click( 
+            function (){
+                $("#picture4").hide("#picture4");
+            });
+            $("#picture5").click( 
+            function (){
+                $("#picture5").hide("#picture5");
+            });
+            $("#picture6").click( 
+            function (){
+                $("#picture6").hide("#picture6");
+            });
+            $("#picture7").click( 
+            function (){
+                $("#picture7").hide("#picture7");
+            });
+            $("#picture8").click( 
+            function (){
+                $("#picture8").hide("#picture8");
+            });
+            // THIS RESTORES US BACK TO ORIGINAL NINJA POWER
+            $("#button").click( 
+            function (){
+                $("#picture1").show("#picture1");
+                $("#picture2").show("#picture2");
+                $("#picture3").show("#picture3");
+                $("#picture4").show("#picture4");
+                $("#picture5").show("#picture5");
+                $("#picture6").show("#picture6");
+                $("#picture7").show("#picture7");
+                $("#picture8").show("#picture8");
+            });
+        </script>    
+    </body>
+</html>
