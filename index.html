@@ -11,34 +11,54 @@
         <div class="container">
             <!-- CONTENT CLASS BEGINS (THE ENTIRE SITE)-->
             <div class="content">
-                <div id="picture0"></div>
-                <div id="picture1"></div>
-                <div id="picture2"></div>
-                <div id="picture3"></div>
-                <div id="picture4"></div>    
+                <div class="thepicture0">
+                    <img id="picture0" src='img/ninja0.png' data-alt-src='img/cat0.png' />
+                </div>
+                <div class="thepicture1">
+                    <img id="picture1" src='img/ninja1.png' data-alt-src='img/cat1.png' />
+                </div>
+                <div class="thepicture2">
+                    <img id="picture2" src='img/ninja2.png' data-alt-src='img/cat2.png' />
+                </div>
+                <div class="thepicture3">
+                    <img id="picture3" src='img/ninja3.png' data-alt-src='img/cat3.png' />
+                </div>
+                <div class="thepicture4">
+                    <img id="picture4" src='img/ninja4.png' data-alt-src='img/cat4.png' />
+                </div>
             </div>
         </div>
         <script>
-            // DISAPPEAR A PICTURE WHEN IT IS CLICKED UPON
-            $("#picture0").click( 
+            // SWAP TO A PICTURE's ALT WHEN IT IS CLICKED UPON
+            $("div.thepicture0 img").click( 
             function (){
-                $("#picture0").hide("#picture0");
+                // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                var temp = $(this).attr('data-alt-src');
+                $("#picture0").attr('src',temp);
             });
-            $("#picture1").click( 
+            $("div.thepicture1 img").click( 
             function (){
-                $("#picture1").hide("#picture1");
+                // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                var temp = $(this).attr('data-alt-src');
+                $("#picture1").attr('src',temp);
             });
-            $("#picture2").click( 
+            $("div.thepicture2 img").click( 
             function (){
-                $("#picture2").hide("#picture2");
+                // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                var temp = $(this).attr('data-alt-src');
+                $("#picture2").attr('src',temp);
             });
-            $("#picture3").click( 
+            $("div.thepicture3 img").click( 
             function (){
-                $("#picture3").hide("#picture3");
+                // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                var temp = $(this).attr('data-alt-src');
+                $("#picture3").attr('src',temp);
             });
-            $("#picture4").click( 
+            $("div.thepicture4 img").click( 
             function (){
-                $("#picture4").hide("#picture4");
+                // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+                var temp = $(this).attr('data-alt-src');
+                $("#picture4").attr('src',temp);
             });
         </script>    
     </body>

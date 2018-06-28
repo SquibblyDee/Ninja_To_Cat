@@ -2,8 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px solid red;
-    /* outline: 1px red solid; */
+    /* outline: 1px solid red; */
 }
 
 body{
@@ -11,54 +10,43 @@ body{
 }
 
 .container{
-    width: 195px;
-    height: 300px;
+    width: 210px;
+    height: 320px;
     display: inline-block;
     background-color: grey;
-    padding-top: 20px;
 }
 
 .content{
-    width: 195px;
-    height: 300px;
+    width: 210px;
+    height: 320px;
     display: inline-block;
-    
+    padding: 10px;
 }
 
 #picture0{
-    margin-top:20px;
+    margin-top:15px;
     width:181px;
     height:43px;
-    margin: 5px;
-    background-image: url("img/cat0.png");
     background-position: bottom;
 }
 #picture1{
     width:181px;
     height:50px;
-    margin: 5px;
-    background-image: url("img/cat1.png");
     background-position: bottom;
 }
 #picture2{
     width:181px;
     height:50px;
-    margin: 5px;
-    background-image: url("img/cat2.png");
     background-position: bottom;
 }
 #picture3{
     width:181px;
     height:50px;
-    margin: 5px;
-    background-image: url("img/cat3.png");
     background-position: bottom;
 }
 #picture4{
     width:181px;
     height:60px;
-    margin: 5px;
-    background-image: url("img/cat4.png");
     background-position: bottom;
 }
 
